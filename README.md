@@ -1,13 +1,13 @@
 # Image-classification
 Image classification with SIFT and Neural network
-- We roughly categorize the photos extracted from Instagram of Huangshan City, China into 5 categroies: Architecture, Cloud, Mountain, Pine, Hiking
-- The Architecture category includes the photos of ancient architecture, like ancient residential houses, memorial archways, shrines, bridges, and streets; 
-The Cloud category includes the photos of cloud, sunset, sunrise, and sky; 
-The Mountain category includes the photos taken near or in front of a mountain. 
-The Pine category includes the photos whose main object is pine tree; 
-The Hiking category includes the photos taken while people are hiking; 
-The Food category includes the photos of food, drinks, recipes. 
+- We roughly categorize the photos extracted from Instagram of Huangshan City, China into 5 categroies: Architecture, Cloud, Food, Pine, Hiking;
+- The Architecture category includes the photos of ancient architecture, like ancient residential houses, memorial archways, shrines, bridges, and street;
+- The Cloud category includes the photos of cloud, sunset, sunrise, and sky; 
+- The Food category includes the photos of food, drinks, recipes;
+- The Pine category includes the photos whose main object is pine tree; 
+- The Hiking category includes the photos taken while people are hiking.
 
+We manually label 100 images for each of the 5 categories, for a total of 500 images. With this set at hand, we randomly split the data with keeping 80% of the data as training data and 20% of data as testing data.
 
 
 
